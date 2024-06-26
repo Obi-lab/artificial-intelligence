@@ -24,6 +24,17 @@ Artificial Intelligence (AI) is a branch of computer science that aims to create
      - **Unsupervised Learning**: Works on unlabeled data to find hidden patterns (e.g., customer segmentation). Clustering
      - **Reinforcement Learning**: Learns by interacting with an environment to achieve a goal (e.g., game playing).
 
+| Feature                     | Supervised Learning                     | Unsupervised Learning                      | Reinforcement Learning                                   |
+|-----------------------------|-----------------------------------------|--------------------------------------------|----------------------------------------------------------|
+| **Definition**              | Learning from labeled data              | Learning from unlabeled data               | Learning through interaction with the environment        |
+| **Data**                    | Labeled                                 | Unlabeled                                  | Feedback from environment (rewards/penalties)            |
+| **Objective**               | Learn a mapping from inputs to outputs  | Discover hidden patterns or structures     | Maximize cumulative reward                               |
+| **Feedback**                | Direct feedback in the form of labels   | No explicit feedback                       | Rewards and penalties from the environment               |
+| **Training Process**        | Minimize error between predictions and actual labels | Identify patterns, structures, and relationships | Learn a policy for decision-making to maximize rewards  |
+| **Common Applications**     | Classification, Regression              | Clustering, Dimensionality Reduction       | Game playing, Robotics, Autonomous vehicles, Finance     |
+| **Example Tasks**           | Email spam detection, Price prediction  | Customer segmentation, Feature extraction  | AlphaGo, OpenAI Five, Robotic control systems            |
+| **Key Algorithms**          | Linear Regression, SVM, Neural Networks | K-Means, PCA, Hierarchical Clustering      | Q-Learning, DQN, Policy Gradients, Actor-Critic, PPO     |
+
 2. **Neural Networks and Deep Learning**:
    - Neural Networks: Inspired by the human brain, consists of interconnected nodes (neurons).
    - Deep Learning: A subset of ML with neural networks having many layers (deep neural networks).
@@ -107,6 +118,9 @@ Artificial Intelligence (AI) is a branch of computer science that aims to create
    - Promoting responsible AI development.
    - Creating frameworks for ethical AI use and regulation.
 
+
+
 ## Conclusion
 
 AI has rapidly evolved from a theoretical concept to a practical technology with significant impact across various domains. As AI continues to advance, it is essential to address ethical considerations and ensure that AI systems are developed and deployed responsibly to benefit society as a whole.
+
